@@ -1,0 +1,46 @@
+<!-- TO MAKE SURE I GOT ALL THE REQUIREMENTS I ADDED THE BULLET POINTS AS COMMENTS - ALL COMMENTS FROM REQUIREMENTS ARE IN QUOTES "" -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>World Clock</title>
+  <!-- OPTIONAL: link your CSS -->
+  <!-- "a link element to include world_clock.css under static at the end of head element (if you are choosing to complete the optional CSS part)" -->
+  <link rel="stylesheet" href="../static/css/world_clock.css" /> <!-- <link rel="stylesheet" href="../static/css/world_clock.css" /> -->
+</head>
+<body>
+  <h1>World Clock Challenge</h1>
+
+  <form id="add-timezone-form">
+    <!-- "The first one should have two input elements, with types text and submit" -->
+    <input type="text" id="timezone-input" />
+    <input type="submit" value="Add Timezone" />
+  </form>
+
+  <form id="delete-timezone-form">
+    <!-- "The second one should have two input elements, with types number and submit" -->
+    <input type="number" id="delete-index-input" />
+    <input type="submit" value="Delete Timezone Index" />
+  </form>
+
+  <h2>My Clocks</h2> <!--"Add an h2 element with textContent of My Clocks" -->
+  <!-- "Add an ul element with an id of clocks" -->
+  <ul id="clocks"></ul>
+
+  <template id="clock-template">
+    <li>
+      <!-- "Add a div element with a class of timezone (Timezone abbreviation)" -->
+      <div class="timezone"></div>
+      <!-- "Add a div element with a class of offset (Timezone offset from UTC)" -->
+      <div class="offset"></div>
+      <!-- "Add a div element with a class of time (Date & Current Time)" -->
+      <div class="time"></div>
+    </li>
+  </template>
+
+  <!-- "a script element to include world_clock.js under static at the end of body element" -->
+  <script src="../static/js/world_clock.js"></script>
+</body>
+</html>

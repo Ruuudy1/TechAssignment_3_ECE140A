@@ -1,0 +1,20 @@
+/* submit buttons color and background feature */
+form input[type="submit"] {
+    background-color: pink;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: aqua;
+  }
+  
+  /* grid layout */
+  #clocks {
+    display: grid;
+    grid-template-columns: repeat(5, 240px);
+    grid-template-rows: repeat(2, 120px);
+    grid-auto-flow: row;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+  }
+  

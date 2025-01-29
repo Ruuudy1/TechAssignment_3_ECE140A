@@ -1,0 +1,31 @@
+<!-- TO MAKE SURE I GOT ALL THE REQUIREMENTS I ADDED THE BULLET POINTS AS COMMENTS - ALL COMMENTS FROM REQUIREMENTS ARE IN QUOTES "" -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Puppy Pong</title>
+  <!-- Extra Credit CSS -->
+  <link rel="stylesheet" href="../static/css/puppy_pong.css" />
+</head>
+<body>
+    <!-- "The first one should keep track of the score, following this format: Score: N as shown in the video." -->
+  <p id="score-display">Score: 0</p>
+  <!-- "The second one should keep track of how long the game has lasted in seconds, following this format: Time: N secs as shown in the video."" -->
+
+  <p id="time-display">Time: 0 secs</p>
+
+  <!-- image has been AI generated to get a cute puppy holding a bitcoin (to the moon!!) -->
+  <!-- An img element that links from /static/puppy.jpg with a height of 200px and width of 300px -->
+  <img id="puppy" src="../static/puppy.jpg" alt="Puppy" width="300" height="200" /> 
+
+  <!-- "An div element to indicate the “death zone” where your puppy will die if it reaches here without player being here to save it. It should have an id called deathzone"-->
+  <div id="deathzone"></div>
+
+  <!-- "A span element to indicate the position of the player with an id called player" -->
+  <span id="player"></span>
+
+  <!-- JS logic -->
+  <script src="../static/js/puppy_pong.js"></script>
+</body>
+</html>

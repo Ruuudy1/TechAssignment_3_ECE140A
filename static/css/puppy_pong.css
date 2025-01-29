@@ -1,0 +1,44 @@
+/* TO MAKE SURE I GOT ALL THE REQUIREMENTS I ADDED THE BULLET POINTS AS COMMENTS 
+- ALL COMMENTS FROM REQUIREMENTS ARE IN QUOTES "" */
+
+/* background */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #222; /* "have background color be set to #222 (slightly different from death zone)" */
+    overflow: hidden; /* disable scrollbar*/
+  }
+  
+  /* score + time */
+  #score-display,
+  #time-display {
+    color: white; /* "The paragraphs should have white text color" */
+    font-size: 1.25rem;
+    margin: 8px;
+  }
+  
+  /* "These elements should be positioned as absolute" - */
+  #puppy {
+    position: absolute;
+    border: 5px solid #000000;
+  }
+  
+  /* "These elements should be positioned as absolute" */
+  #deathzone {
+    position: absolute;
+    bottom: 0; /* "be placed at the bottom of the browser" */
+    height: 50px;
+    width: 100%; /* "have the same width as the browser" (making it 100% meets this requirement) */
+     background-color: black; /*"have background color be set to black" */
+  }
+  
+  #player {
+    position: absolute;
+    background-color: white; /* " The player should have white background color" */
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  
